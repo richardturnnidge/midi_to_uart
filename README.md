@@ -2,7 +2,7 @@
 
 This project provides a simple cicuit diagram for converting standard midi output signals into serial UART signals, capable of being received by our AgonLight2 (or other micro controllers).
 
-Assembly code is included as well as a binary to monitor serial signals being received by Agon.
+Assembly code is included as well as a binary to monitor serial signals being received by Agon. Note that the baud rate is set at 31250 for midi signals. You can adjust this in the source code for other purposes.
 
 Parts required:
 
