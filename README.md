@@ -4,4 +4,4 @@ This project provides a simple cicuit diagram for converting standrad midi outpu
 
 Assembly code is included as well as a binary to monitor serial signals being received by AgonLight.
 
-![./midicircuit.png]
+![](./midicircuit.png)
