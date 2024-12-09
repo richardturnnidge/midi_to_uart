@@ -4,4 +4,14 @@ This project provides a simple cicuit diagram for converting standard midi outpu
 
 Assembly code is included as well as a binary to monitor serial signals being received by AgonLight.
 
+Parts required:
+
+D1 		    1N4148 switching signal diode 		
+DIN1 		  DIN-5 jack (MIDI), or wire direct to a 5 PIN plug 	
+IC1 		  6N138 Optoisolator 		
+R1 		    220 ohm Resistor 		
+R2 		    470 ohm Resistor 		
+R3 		    10k ohm Resistor 	
+
+
 ![](./midicircuit.png)
