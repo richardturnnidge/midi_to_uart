@@ -179,6 +179,7 @@ UART1_Struct:
 exit_here:
 
 	call closeUART1						; close uart port
+	call showcursor
 	call CLS   							; clear screen
 										; reset all values before returning to MOS
 	pop iy
@@ -210,7 +211,18 @@ hidecursor:
 	ld a, 1
 	rst.lil $10
 	ld a,0
-	rst.lil $10	;VDU 23,1,0
+	rst.lil $10							;VDU 23,1,0
+	pop af
+	ret
+
+showcursor:
+	push af
+	ld a, 23
+	rst.lil $10
+	ld a, 1
+	rst.lil $10
+	ld a,1
+	rst.lil $10							;VDU 23,1,1
 	pop af
 	ret
 
