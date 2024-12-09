@@ -6,17 +6,19 @@ Assembly code is included as well as a binary to monitor serial signals being re
 
 Parts required:
 
-D1 		    1N4148 switching signal diode 		
+1N4148 switching signal diode 		
 
-DIN1 		  DIN-5 jack (MIDI), or wire direct to a 5 PIN plug 	
+DIN-5 jack (MIDI), or wire direct to a 5 PIN plug 	
 
-IC1 		  6N138 Optoisolator
+6N138 Optoisolator
 
-R1 		    220 ohm Resistor 		
+220 ohm Resistor 		
 
-R2 		    470 ohm Resistor 		
+470 ohm Resistor 		
 
-R3 		    10k ohm Resistor 	
+10k ohm Resistor 	
+
+vero board or similar
 
 
 ![](./midicircuit.png)
